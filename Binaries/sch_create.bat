@@ -1,0 +1,1 @@
+schtasks /create /tn "Servidor Phone Task" /xml "C:\Program Files (x86)\Shielder Tecnologia\Shielder Phone\Shielder Phone.xml"

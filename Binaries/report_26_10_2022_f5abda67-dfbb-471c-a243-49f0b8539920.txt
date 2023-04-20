@@ -1,0 +1,96 @@
+-----------------------------
+[General Info]
+
+Application: ContactPoint® Shielder Phone
+Version:     1.0.0.0
+Region:      Invariant Language (Invariant Country)
+Machine:     ADRIANO-DEVICE
+User:        adria
+Date: 10/26/2022
+Time: 17:54
+
+User Explanation:
+
+adria said ""
+-----------------------------
+
+[Exception Info 1]
+
+Top-level Exception
+Type:        System.NullReferenceException
+Message:     Object reference not set to an instance of an object.
+Source:      ShielderPhone
+Stack Trace: at ContactPoint.Forms.MainForm.btnDrop_Click(Object sender, EventArgs e) in C:\Users\adria\Desktop\Estágio\Shielder-Phone\SIP_Desktop\core-1.13.3\ContactPoint\Forms\MainForm.cs:line 632
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at ComponentFactory.Krypton.Toolkit.KryptonButton.OnClick(EventArgs e)
+   at ComponentFactory.Krypton.Toolkit.KryptonButton.OnButtonClick(Object sender, MouseEventArgs e)
+   at ComponentFactory.Krypton.Toolkit.ButtonController.OnClick(MouseEventArgs e)
+   at ComponentFactory.Krypton.Toolkit.ButtonController.MouseUp(Control c, Point pt, MouseButtons button)
+   at ComponentFactory.Krypton.Toolkit.ViewBase.MouseUp(Point pt, MouseButtons button)
+   at ComponentFactory.Krypton.Toolkit.ViewBase.MouseUp(Point pt, MouseButtons button)
+   at ComponentFactory.Krypton.Toolkit.ViewBase.MouseUp(Point pt, MouseButtons button)
+   at ComponentFactory.Krypton.Toolkit.ViewBase.MouseUp(Point pt, MouseButtons button)
+   at ComponentFactory.Krypton.Toolkit.ViewManager.MouseUp(MouseEventArgs e, Point rawPt)
+   at ComponentFactory.Krypton.Toolkit.VisualControlBase.OnMouseUp(MouseEventArgs e)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at ComponentFactory.Krypton.Toolkit.VisualControlBase.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+-----------------------------
+
+[Assembly Info]
+
+mscorlib, Version=4.0.0.0
+ExceptionReporter.Core, Version=1.0.0.0
+System.Windows.Forms, Version=4.0.0.0
+PresentationFramework, Version=4.0.0.0
+ContactPoint.Common, Version=1.0.0.0
+System, Version=4.0.0.0
+System.Drawing, Version=4.0.0.0
+ContactPoint.BaseDesign, Version=1.0.0.0
+Newtonsoft.Json, Version=12.0.0.0
+ComponentFactory.Krypton.Toolkit, Version=4.4.1.0
+ContactPoint.BaseDesign.WPF, Version=1.0.0.0
+System.Design, Version=4.0.0.0
+System.Core, Version=4.0.0.0
+ContactPoint.Core, Version=1.0.0.0
+PresentationCore, Version=4.0.0.0
+
+-----------------------------
+
+[Config Settings]
+
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+  </startup>
+</configuration>
+-----------------------------
+
+[System Info]
+
+Operating System
+-Microsoft Windows 11 Pro
+--CodeSet = 1252
+--CSDVersion = 
+--CurrentTimeZone = -180
+--FreePhysicalMemory = 340948
+--OSArchitecture = 64 bits
+--OSLanguage = 1046
+--ServicePackMajorVersion = 0
+--ServicePackMinorVersion = 0
+--Version = 10.0.22000
+
+Machine
+-ADRIANO-DEVICE
+--Manufacturer = LENOVO
+--Model = 20BUS3MC00
+--TotalPhysicalMemory = 4168507392
+--UserName = Adriano-Device\adria
+
+-----------------------------
+

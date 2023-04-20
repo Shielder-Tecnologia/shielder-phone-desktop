@@ -1,0 +1,69 @@
+-----------------------------
+[General Info]
+
+Application: ContactPoint® Shielder Phone
+Version:     1.0.0.0
+Region:      Invariant Language (Invariant Country)
+Machine:     ADRIANO-DEVICE
+User:        adria
+Date: 10/20/2022
+Time: 18:19
+
+User Explanation:
+
+adria said ""
+-----------------------------
+
+[Assembly Info]
+
+mscorlib, Version=4.0.0.0
+ExceptionReporter.Core, Version=1.0.0.0
+System.Windows.Forms, Version=4.0.0.0
+PresentationFramework, Version=4.0.0.0
+ContactPoint.Common, Version=1.0.0.0
+System, Version=4.0.0.0
+System.Drawing, Version=4.0.0.0
+ContactPoint.BaseDesign, Version=1.0.0.0
+Newtonsoft.Json, Version=12.0.0.0
+ComponentFactory.Krypton.Toolkit, Version=4.4.1.0
+ContactPoint.BaseDesign.WPF, Version=1.0.0.0
+System.Design, Version=4.0.0.0
+System.Core, Version=4.0.0.0
+ContactPoint.Core, Version=1.0.0.0
+PresentationCore, Version=4.0.0.0
+
+-----------------------------
+
+[Config Settings]
+
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+  </startup>
+</configuration>
+-----------------------------
+
+[System Info]
+
+Operating System
+-Microsoft Windows 11 Pro
+--CodeSet = 1252
+--CSDVersion = 
+--CurrentTimeZone = -180
+--FreePhysicalMemory = 303960
+--OSArchitecture = 64 bits
+--OSLanguage = 1046
+--ServicePackMajorVersion = 0
+--ServicePackMinorVersion = 0
+--Version = 10.0.22000
+
+Machine
+-ADRIANO-DEVICE
+--Manufacturer = LENOVO
+--Model = 20BUS3MC00
+--TotalPhysicalMemory = 4168507392
+--UserName = Adriano-Device\adria
+
+-----------------------------
+

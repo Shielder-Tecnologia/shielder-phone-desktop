@@ -1,0 +1,216 @@
+ 14:01:37.592 sip_endpoint.c  Module "mod-pjsua-log" registered
+ 14:01:37.592 sip_endpoint.c  Module "mod-tsx-layer" registered
+ 14:01:37.592 sip_endpoint.c  Module "mod-stateful-util" registered
+ 14:01:37.592 sip_endpoint.c  Module "mod-ua" registered
+ 14:01:37.592 sip_endpoint.c  Module "mod-100rel" registered
+ 14:01:37.592 sip_endpoint.c  Module "mod-pjsua" registered
+ 14:01:37.592 sip_endpoint.c  Module "mod-invite" registered
+ 14:01:37.623     wmme_dev.c  WMME initialized, found 5 devices:
+ 14:01:37.623     wmme_dev.c   dev_id 0: Wave mapper  (in=2, out=2)
+ 14:01:37.623     wmme_dev.c   dev_id 1: Grupo de microfones (Realtek(R)  (in=2, out=0)
+ 14:01:37.623     wmme_dev.c   dev_id 2: Headset (Philips TAT2206)  (in=2, out=0)
+ 14:01:37.623     wmme_dev.c   dev_id 3: Fones de ouvido (Philips TAT220  (in=0, out=2)
+ 14:01:37.623     wmme_dev.c   dev_id 4: Alto-falantes (Realtek(R) Audio  (in=0, out=2)
+ 14:01:37.623          pjlib  select() I/O Queue created (0678771C)
+ 14:01:37.623   conference.c  Creating conference bridge with 254 ports
+ 14:01:37.624 sip_endpoint.c  Module "mod-evsub" registered
+ 14:01:37.624 sip_endpoint.c  Module "mod-presence" registered
+ 14:01:37.624        evsub.c  Event pkg "presence" registered by mod-presence
+ 14:01:37.624 sip_endpoint.c  Module "mod-mwi" registered
+ 14:01:37.624        evsub.c  Event pkg "message-summary" registered by mod-mwi
+ 14:01:37.624 sip_endpoint.c  Module "mod-refer" registered
+ 14:01:37.624        evsub.c  Event pkg "refer" registered by mod-refer
+ 14:01:37.624 sip_endpoint.c  Module "mod-pjsua-pres" registered
+ 14:01:37.624 sip_endpoint.c  Module "mod-pjsua-im" registered
+ 14:01:37.624 sip_endpoint.c  Module "mod-pjsua-options" registered
+ 14:01:37.624   pjsua_core.c  1 SIP worker threads created
+ 14:01:37.624   pjsua_core.c  pjsua version 1.8.10 for win32 initialized
+ 14:01:37.628   pjsua_core.c  SIP UDP socket reachable at 192.168.1.212:5060
+ 14:01:37.628    udp06788148  SIP UDP transport started, published address is 192.168.1.212:5060
+ 14:01:37.628    pjsua_acc.c  Account <sip:192.168.1.212:5060> added with id 0
+ 14:01:37.632    tcplis:5060  SIP TCP listener ready for incoming connections at 192.168.1.212:5060
+ 14:01:37.632    pjsua_acc.c  Account <sip:192.168.1.212:5060;transport=TCP> added with id 1
+ 14:01:37.635  pjsua_media.c  RTP socket reachable at 192.168.1.212:4000
+ 14:01:37.635  pjsua_media.c  RTCP socket reachable at 192.168.1.212:4001
+ 14:01:37.639  pjsua_media.c  RTP socket reachable at 192.168.1.212:4002
+ 14:01:37.639  pjsua_media.c  RTCP socket reachable at 192.168.1.212:4003
+ 14:01:37.642  pjsua_media.c  RTP socket reachable at 192.168.1.212:4004
+ 14:01:37.642  pjsua_media.c  RTCP socket reachable at 192.168.1.212:4005
+ 14:01:37.645  pjsua_media.c  RTP socket reachable at 192.168.1.212:4006
+ 14:01:37.645  pjsua_media.c  RTCP socket reachable at 192.168.1.212:4007
+ 14:01:37.648  pjsua_media.c  RTP socket reachable at 192.168.1.212:4008
+ 14:01:37.648  pjsua_media.c  RTCP socket reachable at 192.168.1.212:4009
+ 14:01:37.651  pjsua_media.c  RTP socket reachable at 192.168.1.212:4010
+ 14:01:37.651  pjsua_media.c  RTCP socket reachable at 192.168.1.212:4011
+ 14:01:37.655  pjsua_media.c  RTP socket reachable at 192.168.1.212:4012
+ 14:01:37.655  pjsua_media.c  RTCP socket reachable at 192.168.1.212:4013
+ 14:01:37.658  pjsua_media.c  RTP socket reachable at 192.168.1.212:4014
+ 14:01:37.658  pjsua_media.c  RTCP socket reachable at 192.168.1.212:4015
+ 14:01:37.658 sip_endpoint.c  Module "My-Module" registered
+ 14:01:37.658 sip_endpoint.c  Module "mod-unsolicited-mwi" registered
+ 14:01:37.665   pjsipDll.cpp  Setting codec (speex/16000/1) prio: 128
+ 14:01:37.666   pjsipDll.cpp  Setting codec (speex/8000/1) prio: 128
+ 14:01:37.667   pjsipDll.cpp  Setting codec (speex/32000/1) prio: 128
+ 14:01:37.691   pjsipDll.cpp  Device 0, Wave mapper (capture=2, playback=2)
+ 14:01:37.691   pjsipDll.cpp  Device 1, Grupo de microfones (Realtek(R) (capture=2, playback=0)
+ 14:01:37.691   pjsipDll.cpp  Using device 1, Grupo de microfones (Realtek(R) for recording
+ 14:01:37.691   pjsipDll.cpp  Device 2, Headset (Philips TAT2206) (capture=2, playback=0)
+ 14:01:37.691   pjsipDll.cpp  Device 3, Fones de ouvido (Philips TAT220 (capture=0, playback=2)
+ 14:01:37.691   pjsipDll.cpp  Using device 3, Fones de ouvido (Philips TAT220 for playback
+ 14:01:37.691   pjsipDll.cpp  Device 4, Alto-falantes (Realtek(R) Audio (capture=0, playback=2)
+ 14:01:37.691  pjsua_media.c  Opening sound device PCM@16000/1/20ms
+ 14:01:37.700     wmme_dev.c   WaveAPI Sound player "Fones de ouvido (Philips TAT220" initialized (format=PCM, clock_rate=16000, channel_count=1, samples_per_frame=320 (20ms))
+ 14:01:37.759     wmme_dev.c   WaveAPI Sound recorder "Grupo de microfones (Realtek(R)" initialized (format=PCM, clock_rate=16000, channel_count=1, samples_per_frame=320 (20ms))
+ 14:01:37.760     ec083EF988  Creating AEC
+ 14:01:37.760     ec083EF988  AEC created, clock_rate=16000, channel=1, samples per frame=320, tail length=3600 ms, latency=100 ms
+ 14:01:37.760     wmme_dev.c  WMME playback stream started
+ 14:01:37.760     wmme_dev.c  WMME capture stream started
+ 14:01:37.808     ec083EF988  Prefetching..
+ 14:01:37.828     ec083EF988  Prefetching..
+ 14:01:37.848     ec083EF988  Prefetching..
+ 14:01:37.868     ec083EF988  Prefetching..
+ 14:01:37.888     ec083EF988  Prefetching..
+ 14:01:37.908     ec083EF988  Prefetching..
+ 14:01:37.918     ec083EF988  Latency bufferring complete
+ 14:01:38.134    pjsua_acc.c  Account id 0 deleted
+ 14:01:38.134    pjsua_acc.c  Account id 1 deleted
+ 14:01:38.140    pjsua_acc.c  Account sip:1040@sip.shielder.com.br added with id 0
+ 14:01:38.140    pjsua_acc.c  Contact for acc 0 updated for SIP outbound: <sip:1040@192.168.1.212:5060;transport=TCP;ob>;reg-id=1;+sip.instance="<urn:uuid:00000000-0000-0000-0000-0000b86e5768>"
+ 14:01:38.140       endpoint  Request msg REGISTER/cseq=9120 (tdta0121C920) created.
+ 14:01:38.140    tsx066E63AC  Transaction created for Request msg REGISTER/cseq=9121 (tdta0121C920)
+ 14:01:38.140    tsx066E63AC  Sending Request msg REGISTER/cseq=9121 (tdta0121C920) in state Null
+ 14:01:38.140  sip_resolve.c  DNS resolver not available, target 'sip.shielder.com.br:0' type=TCP will be resolved with getaddrinfo()
+ 14:01:38.140  sip_resolve.c  Target 'sip.shielder.com.br:0' type=TCP resolved to '168.138.137.208:5060' type=TCP (TCP transport)
+ 14:01:38.140   tcpc0B0BF62C  TCP client transport created
+ 14:01:38.141   tcpc0B0BF62C  TCP transport 192.168.1.212:50765 is connecting to 168.138.137.208:5060...
+ 14:01:38.141   pjsua_core.c  TX 673 bytes Request msg REGISTER/cseq=9121 (tdta0121C920) to tcp 168.138.137.208:5060:
+REGISTER sip:sip.shielder.com.br;transport=tcp SIP/2.0
+Via: SIP/2.0/TCP 192.168.1.212:50765;rport;branch=z9hG4bKPj55d1f6745039484c8a9dc53b108bb296
+Max-Forwards: 70
+From: <sip:1040@sip.shielder.com.br>;tag=285b39dea86a4a60b03cc1e0b2769dd0
+To: <sip:1040@sip.shielder.com.br>
+Call-ID: d8ddbe9724294caba28a7ecdf7690155
+CSeq: 9121 REGISTER
+User-Agent: IP Phone on PJSUA v1.8.10/win32
+Supported: outbound, path
+Contact: <sip:1040@192.168.1.212:5060;transport=TCP;ob>;reg-id=1;+sip.instance="<urn:uuid:00000000-0000-0000-0000-0000b86e5768>"
+Expires: 3600
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Content-Length:  0
+
+
+--end msg--
+ 14:01:38.141    tsx066E63AC  State changed from Null to Calling, event=TX_MSG
+ 14:01:38.141    pjsua_acc.c  Registration sent
+ 14:01:42.818   sound_port.c  EC suspended because of inactivity
+ 14:01:59.175   tcpc0B0BF62C  TCP connect() error: Connection timed out (WSAETIMEDOUT) [code=130060]
+ 14:01:59.175    tsx066E63AC  Failed to send Request msg REGISTER/cseq=9121 (tdta0121C920)! err=130060 (Connection timed out (WSAETIMEDOUT))
+ 14:01:59.175    tsx066E63AC  State changed from Calling to Terminated, event=TRANSPORT_ERROR
+ 14:01:59.175    pjsua_acc.c  SIP registration failed, status=503 (Connection timed out (WSAETIMEDOUT))
+ 14:01:59.186   tcpc0B0BF62C  TCP send() error, sent=-130060
+ 14:01:59.186    pjsua_acc.c  Contact for acc 0 updated for SIP outbound: <sip:1040@192.168.1.212:5060;transport=TCP;ob>;reg-id=1;+sip.instance="<urn:uuid:00000000-0000-0000-0000-0000b86e5768>"
+ 14:01:59.186       endpoint  Request msg REGISTER/cseq=18508 (tdta0121B918) created.
+ 14:01:59.186    tsx066C99FC  Transaction created for Request msg REGISTER/cseq=18509 (tdta0121B918)
+ 14:01:59.187    tsx066C99FC  Sending Request msg REGISTER/cseq=18509 (tdta0121B918) in state Null
+ 14:01:59.187  sip_resolve.c  DNS resolver not available, target 'sip.shielder.com.br:0' type=TCP will be resolved with getaddrinfo()
+ 14:01:59.188  sip_resolve.c  Target 'sip.shielder.com.br:0' type=TCP resolved to '168.138.137.208:5060' type=TCP (TCP transport)
+ 14:01:59.188   tcpc0B107A94  TCP client transport created
+ 14:01:59.189   tcpc0B107A94  TCP transport 192.168.1.212:50788 is connecting to 168.138.137.208:5060...
+ 14:01:59.189   pjsua_core.c  TX 674 bytes Request msg REGISTER/cseq=18509 (tdta0121B918) to tcp 168.138.137.208:5060:
+REGISTER sip:sip.shielder.com.br;transport=tcp SIP/2.0
+Via: SIP/2.0/TCP 192.168.1.212:50788;rport;branch=z9hG4bKPjfd349a0adb784b8e8f7a33f0eb17f2dd
+Max-Forwards: 70
+From: <sip:1040@sip.shielder.com.br>;tag=5fcc33217fd743e6ae57f321b6125820
+To: <sip:1040@sip.shielder.com.br>
+Call-ID: 39205dfc382240c98fdcbe36f02ac72a
+CSeq: 18509 REGISTER
+User-Agent: IP Phone on PJSUA v1.8.10/win32
+Supported: outbound, path
+Contact: <sip:1040@192.168.1.212:5060;transport=TCP;ob>;reg-id=1;+sip.instance="<urn:uuid:00000000-0000-0000-0000-0000b86e5768>"
+Expires: 3600
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Content-Length:  0
+
+
+--end msg--
+ 14:01:59.189    tsx066C99FC  State changed from Null to Calling, event=TX_MSG
+ 14:01:59.189    pjsua_acc.c  Registration sent
+ 14:01:59.189   tcpc0B0BF62C  TCP transport destroyed with reason 130060: Connection timed out (WSAETIMEDOUT)
+ 14:01:59.189    tsx066E63AC  Timeout timer event
+ 14:01:59.189    tsx066E63AC  State changed from Terminated to Destroyed, event=TIMER
+ 14:01:59.189   tdta0121C920  Destroying txdata Request msg REGISTER/cseq=9121 (tdta0121C920)
+ 14:01:59.189    tsx066E63AC  Transaction destroyed!
+ 14:02:20.233   tcpc0B107A94  TCP connect() error: Connection timed out (WSAETIMEDOUT) [code=130060]
+ 14:02:20.233    tsx066C99FC  Failed to send Request msg REGISTER/cseq=18509 (tdta0121B918)! err=130060 (Connection timed out (WSAETIMEDOUT))
+ 14:02:20.233    tsx066C99FC  State changed from Calling to Terminated, event=TRANSPORT_ERROR
+ 14:02:20.233    pjsua_acc.c  SIP registration failed, status=503 (Connection timed out (WSAETIMEDOUT))
+ 14:02:20.234   tcpc0B107A94  TCP send() error, sent=-130060
+ 14:02:20.234    tsx066C99FC  Timeout timer event
+ 14:02:20.234    tsx066C99FC  State changed from Terminated to Destroyed, event=TIMER
+ 14:02:20.234   tdta0121B918  Destroying txdata Request msg REGISTER/cseq=18509 (tdta0121B918)
+ 14:02:20.235    tsx066C99FC  Transaction destroyed!
+ 14:02:20.235   tcpc0B107A94  TCP transport destroyed with reason 130060: Connection timed out (WSAETIMEDOUT)
+ 14:07:20.237    pjsua_acc.c  Contact for acc 0 updated for SIP outbound: <sip:1040@192.168.1.212:5060;transport=TCP;ob>;reg-id=1;+sip.instance="<urn:uuid:00000000-0000-0000-0000-0000b86e5768>"
+ 14:07:20.237       endpoint  Request msg REGISTER/cseq=32834 (tdta0121B918) created.
+ 14:07:20.237    tsx066CB214  Transaction created for Request msg REGISTER/cseq=32835 (tdta0121B918)
+ 14:07:20.237    tsx066CB214  Sending Request msg REGISTER/cseq=32835 (tdta0121B918) in state Null
+ 14:07:20.237  sip_resolve.c  DNS resolver not available, target 'sip.shielder.com.br:0' type=TCP will be resolved with getaddrinfo()
+ 14:07:20.258  sip_resolve.c  Target 'sip.shielder.com.br:0' type=TCP resolved to '168.138.137.208:5060' type=TCP (TCP transport)
+ 14:07:20.258   tcpc0B0F745C  TCP client transport created
+ 14:07:20.258   tcpc0B0F745C  TCP transport 192.168.1.212:50989 is connecting to 168.138.137.208:5060...
+ 14:07:20.258   pjsua_core.c  TX 674 bytes Request msg REGISTER/cseq=32835 (tdta0121B918) to tcp 168.138.137.208:5060:
+REGISTER sip:sip.shielder.com.br;transport=tcp SIP/2.0
+Via: SIP/2.0/TCP 192.168.1.212:50989;rport;branch=z9hG4bKPjda050644411c48d39d2872622ca37be0
+Max-Forwards: 70
+From: <sip:1040@sip.shielder.com.br>;tag=7f93404e1e0244039a9c58668a0ae524
+To: <sip:1040@sip.shielder.com.br>
+Call-ID: 167bdae322c74a97afaab17752088ec7
+CSeq: 32835 REGISTER
+User-Agent: IP Phone on PJSUA v1.8.10/win32
+Supported: outbound, path
+Contact: <sip:1040@192.168.1.212:5060;transport=TCP;ob>;reg-id=1;+sip.instance="<urn:uuid:00000000-0000-0000-0000-0000b86e5768>"
+Expires: 3600
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Content-Length:  0
+
+
+--end msg--
+ 14:07:20.258    tsx066CB214  State changed from Null to Calling, event=TX_MSG
+ 14:07:20.258    pjsua_acc.c  Registration sent
+ 14:07:41.308   tcpc0B0F745C  TCP connect() error: Connection timed out (WSAETIMEDOUT) [code=130060]
+ 14:07:41.308    tsx066CB214  Failed to send Request msg REGISTER/cseq=32835 (tdta0121B918)! err=130060 (Connection timed out (WSAETIMEDOUT))
+ 14:07:41.308    tsx066CB214  State changed from Calling to Terminated, event=TRANSPORT_ERROR
+ 14:07:41.308    pjsua_acc.c  SIP registration failed, status=503 (Connection timed out (WSAETIMEDOUT))
+ 14:07:41.312   tcpc0B0F745C  TCP send() error, sent=-130060
+ 14:07:41.312    tsx066CB214  Timeout timer event
+ 14:07:41.312    tsx066CB214  State changed from Terminated to Destroyed, event=TIMER
+ 14:07:41.312   tdta0121B918  Destroying txdata Request msg REGISTER/cseq=32835 (tdta0121B918)
+ 14:07:41.312    tsx066CB214  Transaction destroyed!
+ 14:07:41.312   tcpc0B0F745C  TCP transport destroyed with reason 130060: Connection timed out (WSAETIMEDOUT)
+ 14:10:44.603   pjsipDll.cpp  Device 0, Wave mapper (capture=2, playback=2)
+ 14:10:44.603   pjsipDll.cpp  Device 1, Grupo de microfones (Realtek(R) (capture=2, playback=0)
+ 14:10:44.603   pjsipDll.cpp  Using device 1, Grupo de microfones (Realtek(R) for recording
+ 14:10:44.603   pjsipDll.cpp  Device 2, Headset (Philips TAT2206) (capture=2, playback=0)
+ 14:10:44.603   pjsipDll.cpp  Device 3, Fones de ouvido (Philips TAT220 (capture=0, playback=2)
+ 14:10:44.603   pjsipDll.cpp  Using device 3, Fones de ouvido (Philips TAT220 for playback
+ 14:10:44.603   pjsipDll.cpp  Device 4, Alto-falantes (Realtek(R) Audio (capture=0, playback=2)
+ 14:10:44.603  pjsua_media.c  Closing Fones de ouvido (Philips TAT220 sound playback device and Grupo de microfones (Realtek(R) sound capture device
+ 14:10:44.608     wmme_dev.c  Stopped WMME playback stream
+ 14:10:44.632     wmme_dev.c  Stopped WMME capture stream
+ 14:10:44.632     wmme_dev.c  Stopped WMME playback stream
+ 14:10:44.632     wmme_dev.c  Stopped WMME capture stream
+ 14:10:44.632     wmme_dev.c  WMME: thread stopping..
+ 14:10:44.632           wmme  Thread stack max usage=4449 by D:\a\pjsip\pjsip\pjproject-1.8.10\pjlib\src\pj\os_core_win32.c:1402
+ 14:10:44.653  pjsua_media.c  Opening sound device PCM@16000/1/20ms
+ 14:10:44.670     wmme_dev.c   WaveAPI Sound player "Fones de ouvido (Philips TAT220" initialized (format=PCM, clock_rate=16000, channel_count=1, samples_per_frame=320 (20ms))
+ 14:10:44.728     wmme_dev.c   WaveAPI Sound recorder "Grupo de microfones (Realtek(R)" initialized (format=PCM, clock_rate=16000, channel_count=1, samples_per_frame=320 (20ms))
+ 14:10:44.731     ec08452920  Creating AEC
+ 14:10:44.731     ec08452920  AEC created, clock_rate=16000, channel=1, samples per frame=320, tail length=3600 ms, latency=100 ms
+ 14:10:44.731     wmme_dev.c  WMME playback stream started
+ 14:10:44.731     wmme_dev.c  WMME capture stream started
+ 14:10:44.778     ec08452920  Prefetching..
+ 14:10:44.798     ec08452920  Prefetching..
+ 14:10:44.822     ec08452920  Prefetching..
+ 14:10:44.841     ec08452920  Prefetching..
+ 14:10:44.861     ec08452920  Prefetching..
+ 14:10:44.868     ec08452920  Latency bufferring complete
